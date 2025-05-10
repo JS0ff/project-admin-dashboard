@@ -17,11 +17,6 @@ body{
     "sidebar main";
 }
 
-body > *{
-    border: 2px solid peachpuff;
-    border-radius: 5px;
-}
-
 .header{
     grid-area: header;
 }
@@ -30,4 +25,8 @@ body > *{
 }
 .sidebar{
      grid-area: sidebar;
+     display: grid;
+     background-color: rgb(57, 168, 241);
+     color: ghostwhite;
+     grid-template-rows: 0.3fr 1fr 1fr;
 }
