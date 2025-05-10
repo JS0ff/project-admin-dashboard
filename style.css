@@ -11,7 +11,7 @@
 body{
     min-height: 100%;
     display: grid;
-    grid-template-columns: 0.85fr 3fr;
+    grid-template-columns: 1.3fr 4fr;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
     "sidebar header"
