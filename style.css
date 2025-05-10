@@ -28,7 +28,7 @@ body{
      display: grid;
      background-color: rgb(17, 139, 220);
      color: ghostwhite;
-     grid-template-rows: 0.25fr 1fr 1fr;
+     grid-template-rows: 0.15fr 0.5fr 0.5fr 0.3fr;
 }
 svg{
     fill: white;
@@ -45,23 +45,30 @@ svg{
     display: grid;
     justify-content: end;
 }
-.upper-group svg{
+.upper-group svg,
+.lower-group svg{
     height: 1.5em;
 }
-.upper-group{
+.upper-group,
+.lower-group{
     margin: 1.8rem;
-    margin-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
     display: grid;
-    grid-auto-rows: 0.15fr;
+    grid-auto-rows: 0.13fr;
+    gap: 10px;
 }
-.upper-group >*{
+.upper-group >*,
+.lower-group >*{
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     font-size: 18px;
     font-weight: bold;
     align-items: center;
-
 }
-.upper-group >* svg{
-
+.upper-group{
+    margin-top: 1.5rem;
+}
+.lower-group{
+    margin-top: 2.5rem;
 }
