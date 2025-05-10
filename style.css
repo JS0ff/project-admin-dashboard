@@ -22,9 +22,10 @@ body{
 .header{
     grid-area: header;
     padding: 20px;
+    padding-top: 10px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
 }
 .main{
     grid-area: main;
@@ -97,11 +98,23 @@ svg{
     grid-template-columns: 0.1fr 1fr;
     gap: 15px;
     justify-content: center;
-}
-.header-profile{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 .search svg{
     justify-self:end;
+}
+.header-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2.5fr;
+    align-items: center;
+}
+.header-profile p{
+    font-weight: bold;
+}
+.header-profile svg{
+    height: 1.3rem;
+    fill: black;
+}
+.header-profile > *{
+    justify-self: center;
 }
