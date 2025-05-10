@@ -9,7 +9,7 @@
 body{
     min-height: 100%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.85fr 3fr;
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
     "sidebar header"
@@ -26,7 +26,22 @@ body{
 .sidebar{
      grid-area: sidebar;
      display: grid;
-     background-color: rgb(57, 168, 241);
+     background-color: rgb(17, 139, 220);
      color: ghostwhite;
-     grid-template-rows: 0.3fr 1fr 1fr;
+     grid-template-rows: 0.25fr 1fr 1fr;
+}
+svg{
+    fill: white;
+}
+.dashboard-logo{
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    align-items: center;
+}
+.dashboard-logo .logo svg{
+    height: 3rem;
+}
+.dashboard-logo .logo{
+    display: grid;
+    justify-content: end;
 }
