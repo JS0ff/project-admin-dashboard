@@ -45,3 +45,23 @@ svg{
     display: grid;
     justify-content: end;
 }
+.upper-group svg{
+    height: 1.5em;
+}
+.upper-group{
+    margin: 1.8rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-rows: 0.15fr;
+}
+.upper-group >*{
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+
+}
+.upper-group >* svg{
+
+}
