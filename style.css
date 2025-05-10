@@ -12,7 +12,7 @@ body{
     min-height: 100%;
     display: grid;
     grid-template-columns: 1.1fr 4fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
     grid-template-areas: 
     "sidebar header"
     "sidebar main"
@@ -21,7 +21,6 @@ body{
 
 .header{
     grid-area: header;
-    padding: 20px;
     padding-top: 10px;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -87,7 +86,7 @@ svg{
     justify-self: start;
 }
 .search input{
-    width: 30rem;
+    width: 40rem;
     height: 25px;
     border-radius: 15px;
     background-color: rgb(224, 233, 235);
@@ -117,4 +116,21 @@ svg{
 }
 .header-profile > *{
     justify-self: center;
+}
+.greetings{
+    display: grid;
+    grid-template-columns: 0.7fr 4fr;
+    gap: 15px;
+    align-items: center;
+}
+.greetings p{
+    font-weight: 700;
+    font-size: 22px;
+}
+.greetings .small{
+    font-size: 14px;
+    font-weight: 700;
+}
+.greetings img{
+    justify-self:end;
 }
