@@ -21,6 +21,10 @@ body{
 
 .header{
     grid-area: header;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
 }
 .main{
     grid-area: main;
@@ -75,4 +79,29 @@ svg{
 }
 .lower-group{
     margin-top: 2.5rem;
+}
+.search svg{
+    height: 1.3rem;
+    fill: rgb(0, 0, 0);
+    justify-self: start;
+}
+.search input{
+    width: 30rem;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(224, 233, 235);
+    border: none;
+}
+.search{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+}
+.header-profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search svg{
+    justify-self:end;
 }
