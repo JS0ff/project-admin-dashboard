@@ -151,3 +151,20 @@ svg{
     border:  none;
     font-weight: bold;
 }
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "projects announcement"
+    "projects trending";
+}
+
+.announcement{
+    grid-area: announcement;
+}
+.trending{
+    grid-area: trending;
+}
+.projects{
+    grid-area: projects
+}
