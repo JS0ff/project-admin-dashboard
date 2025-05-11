@@ -158,9 +158,9 @@ svg{
     grid-template-areas: 
     "projects announcement"
     "projects trending";
-    padding-bottom: 75px;
+    padding-bottom: 55px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 55px;
 }
 
@@ -175,7 +175,7 @@ svg{
     display: grid;
     grid-template-columns: 4fr 4fr;
     grid-template-rows: 0.1fr 1fr 1fr 1fr;
-    gap: 15px;
+    gap: 20px;
 }
 
 .projects > .project{
@@ -187,4 +187,6 @@ svg{
     font-size: 20px;
     font-weight: 500;
     grid-column: 1/3;
+    position: relative;
+    top: 10px;
 }
