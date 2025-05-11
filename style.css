@@ -184,7 +184,8 @@ svg{
     background-color: white;
     border-left: solid 7px orange;
     border-radius: 8px;
-    font-size: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
 }
 .projects h2{
     font-size: 20px;
@@ -195,4 +196,13 @@ svg{
 }
 .announcement{
     font-size: 10px;
+}
+
+.project h3{
+    font-size: 14px;
+}
+.project p{
+    font-size: 12px;
+    width: 35ch;
+    color: grey;
 }
