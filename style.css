@@ -198,7 +198,9 @@ svg{
 .announcement{
     font-size: 10px;
 }
-
+.project{
+    display: grid;
+}
 .project h3{
     font-size: 14px;
 }
@@ -206,6 +208,17 @@ svg{
     font-size: 12px;
     width: 35ch;
     color: grey;
+}
+.svg-group{
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-right: 25px;
+}
+.svg-group svg{
+    height: 1.25rem;
+    fill: black;
 }
 .announcement{
     display: grid;
