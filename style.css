@@ -157,6 +157,8 @@ svg{
     grid-template-areas: 
     "projects announcement"
     "projects trending";
+    padding: 20px;
+    padding-top: 30px;
 }
 
 .announcement{
@@ -166,5 +168,5 @@ svg{
     grid-area: trending;
 }
 .projects{
-    grid-area: projects
+    grid-area: projects;
 }
