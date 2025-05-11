@@ -113,8 +113,9 @@ svg{
 .header-profile svg{
     height: 1.3rem;
     fill: black;
+    justify-self: end ;
 }
-.header-profile > *{
+.header-profile img{
     justify-self: center;
 }
 .greetings{
