@@ -31,7 +31,7 @@ body{
     background-color: rgb(224, 224, 234);
     display: grid;
     grid-template-columns: 3fr 1.5fr;
-    grid-template-rows: 2fr 1.75fr;
+    grid-template-rows: 2fr 2fr;
     grid-template-areas: 
     "projects announcement"
     "projects trending";
@@ -255,7 +255,6 @@ hr{
 .trending{
     display: grid;
     grid-template-rows: 0.6fr 6fr;
-    grid-template-columns: 4fr 1fr;
 }
 
 .trending-card{
